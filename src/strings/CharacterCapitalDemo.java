@@ -1,9 +1,10 @@
+package strings;
 
 public class CharacterCapitalDemo {
 
 	public static void main(String[] args) {
 		
-		capital("nikhil Aggarwal");
+		capital("Nikhil aggarwal");
 		
 
 	}

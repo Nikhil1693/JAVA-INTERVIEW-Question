@@ -17,7 +17,7 @@ public class binaryToDecimal {
 		
 		int remainder=num%10;
 		num=num/10;
-		decimal=remainder+remainder*Math.pow(2, i);
+		decimal=decimal+remainder*Math.pow(2, i);
 		++i;
 		
 	}
